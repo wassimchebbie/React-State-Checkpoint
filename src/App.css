@@ -1,0 +1,85 @@
+/* App Container */
+.App {
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif; /* Modern font */
+  padding: 20px;
+  background-color: #eef2f5; /* Softer background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button Styling */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #1d72b8; /* Richer blue */
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* Smoother corners */
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #145b8a; /* Deeper blue on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+button:active {
+  transform: scale(1); /* Reset zoom when clicked */
+}
+
+/* Profile Image */
+img {
+  margin: 20px 0;
+  border: 4px solid #1d72b8; /* Match button color */
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle image shadow */
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: rotate(3deg) scale(1.05); /* Fun hover effect */
+}
+
+/* Profile Name */
+h2 {
+  font-size: 26px;
+  color: #222; /* Darker text for contrast */
+  margin-bottom: 8px;
+}
+
+/* Profile Bio */
+p {
+  font-size: 18px;
+  color: #555; /* Slightly darker for better readability */
+  margin: 10px 0;
+  line-height: 1.6;
+  max-width: 600px; /* Restrict width for cleaner look */
+}
+
+/* Profile Profession */
+h3 {
+  font-size: 22px;
+  color: #444;
+  margin-top: 10px;
+  font-style: italic; /* Add emphasis */
+}
+
+/* Timer Display */
+p:last-child {
+  font-size: 16px;
+  color: #777;
+  margin-top: 25px;
+  font-weight: 500;
+  font-family: 'Roboto Mono', monospace; /* Timer-specific font */
+}
